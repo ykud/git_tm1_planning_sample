@@ -13,6 +13,12 @@
   },
   "Deployments":
   {
-    
+    "20191129":
+    {
+      "Objects":
+      {
+       "Cubes('plan_Report')"
+      }
+    }
   },  
 }
