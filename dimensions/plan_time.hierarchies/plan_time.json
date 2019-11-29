@@ -4,6 +4,10 @@
 	"Elements":
 	[
 		{
+			"Name":"Test DB",
+			"Type":"String"
+		},
+		{
 			"Name":"Description",
 			"Type":"String"
 		},
