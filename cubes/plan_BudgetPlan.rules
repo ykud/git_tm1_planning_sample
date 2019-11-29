@@ -1,8 +1,9 @@
 skipcheck;
 
-['local','line input']=DB('plan_BudgetPlanLineItem',
-!plan_version,!plan_business_unit,!plan_department,
-!plan_chart_of_accounts,'local','All Lines',!plan_time);
+['local','line input']=
+  DB('plan_BudgetPlanLineItem',
+    !plan_version,!plan_business_unit,!plan_department,
+    !plan_chart_of_accounts,'local','All Lines',!plan_time);
 
 [plan_exchange_rates:'local', plan_source:'goal']=N:
 DB('plan_BudgetPlan',!plan_version,!plan_business_unit,!plan_department,!plan_chart_of_accounts,'actual',
