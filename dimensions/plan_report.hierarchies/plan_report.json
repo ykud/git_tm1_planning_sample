@@ -30,10 +30,6 @@
 		{
 			"Name":"ly actual v actual variance",
 			"Type":"Numeric"
-		},
-		{
-			"Name":"test fz",
-			"Type":"Numeric"
 		}
 	],
 	"Subsets@Code.links":
@@ -41,6 +37,7 @@
 		"plan_report.subsets/actual.json",
 		"plan_report.subsets/AllReports.json",
 		"plan_report.subsets/budget.json",
+		"plan_report.subsets/Budget,LYBudget,LYActuals.json",
 		"plan_report.subsets/ly actual.json",
 		"plan_report.subsets/ly budget.json",
 		"plan_report.subsets/plan_exec_report.json",
