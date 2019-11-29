@@ -2,6 +2,6 @@
   "Version": "1.0",
   "Objects":
   {
-    "Files('/}Applications/*')"
+    "Files('/}Applications/*')",
   }
 }
