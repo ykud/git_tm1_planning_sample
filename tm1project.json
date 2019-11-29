@@ -7,7 +7,12 @@
     {
       "Objects":
       {
-       "Cubes('plan_Report')"
+       "Cubes":
+       {
+        [
+          Cube('plan_Report')
+         ]
+        }
       }
     }
   },  
