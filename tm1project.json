@@ -9,9 +9,9 @@
       {
        "Cubes":
        {
-        [
-          Cube('plan_Report')
-         ]
+        
+          "Cube('plan_Report')"
+         
         }
       }
     }
