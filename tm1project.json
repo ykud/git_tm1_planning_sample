@@ -1,7 +1,8 @@
 {
    "Version": "1.0",
    "Objects": {
-      "Files": [ "}applications/*"
-      ]
+      "Files": { 
+         "Link":"/}applications/"
+       }
    }
 }
