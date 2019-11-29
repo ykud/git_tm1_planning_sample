@@ -1,7 +1,10 @@
 {
-  "Version": "1.0"
-  "Files":
-  [
-    "/}Applications/*"
-  ]
+  "Version": "1.0",
+  "Objects":
+  {
+    "Files":
+    [
+      "/}Applications/*"
+    ]
+  }
 }
