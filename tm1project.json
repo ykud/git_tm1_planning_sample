@@ -1,16 +1,6 @@
 {
   "Version": "1.0",
-  "Objects":
-  {
-    "Cubes":
-    {
-       "Cubes('plan_Report')"
-    },
-    "Files":
-    [
-      "/}Applications/*"
-    ]
-  },
+
   "Deployments":
   {
     "20191129":
