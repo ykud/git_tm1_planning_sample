@@ -1,4 +1,8 @@
 {
    "Version": "1.0",
-   "Objects": {}
+   "Objects": {
+      "Files": {
+         "Link": "/all_files/"
+      }
+   }
 }
