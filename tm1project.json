@@ -2,7 +2,7 @@
    "Version": "1.0",
    "Objects": {
       "Files": {
-         "Link": "/all_files/"
+          "Files": "/}Applications/*"
       }
    }
 }
