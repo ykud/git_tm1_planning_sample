@@ -38,6 +38,10 @@
 		{
 			"Name":"10400",
 			"Type":"Numeric"
+		},
+		{
+			"Name":"10500",
+			"Type":"Numeric"
 		}
 	],
 	"Edges":
