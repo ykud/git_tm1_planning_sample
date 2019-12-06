@@ -7,6 +7,9 @@ CUBESETLOGCHANGES('plan_BudgetPlan', 0);
 
 DatasourceASCIIThousandSeparator='';
 # This our test comment for GIT pull
+
+# This is a comment from VSCode
+
 #PStartDate
 VStartMonth=subst(PStartDate,1,3);
 VstartYear=NUMBR(subst(PStartDate,5,4));
