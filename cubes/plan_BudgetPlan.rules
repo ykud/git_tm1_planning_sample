@@ -11,8 +11,7 @@ skipcheck;
     DB('plan_ExchangeRate',ATTRS('plan_business_unit',!plan_business_unit,'currency'),'actual',!plan_time);
 
 ['actual']=
-    N:
-    IF(!plan_source @= 'goal', stet, DB('plan_BudgetPlan',!plan_version,!plan_business_unit,
+    N: IF(!plan_source @= 'goal', stet, DB('plan_BudgetPlan',!plan_version,!plan_business_unit,
         !plan_department,!plan_chart_of_accounts,'local',!plan_source,!plan_time)/
         DB('plan_ExchangeRate',ATTRS('plan_business_unit',!plan_business_unit,'currency'),'actual',!plan_time));
 
@@ -28,11 +27,10 @@ DB('plan_ExchangeRate',ATTRS('plan_business_unit',!plan_business_unit,'currency'
 !plan_department,!plan_chart_of_accounts,'local',!plan_source,!plan_time)/
 DB('plan_ExchangeRate',ATTRS('plan_business_unit',!plan_business_unit,'currency'),'planning',!plan_time);
 
-['spot']=N:DB('plan_BudgetPlan',!plan_version,!plan_business_unit,
-!plan_department,!plan_chart_of_accounts,'local',!plan_source,!plan_time)/
-DB('plan_ExchangeRate',ATTRS('plan_business_unit',!plan_business_unit,'currency'),'spot',!plan_time);
-
-
+['spot']=N:
+  DB('plan_BudgetPlan',!plan_version,!plan_business_unit,
+  !plan_department,!plan_chart_of_accounts,'local',!plan_source,!plan_time)/
+  DB('plan_ExchangeRate',ATTRS('plan_business_unit',!plan_business_unit,'currency'),'spot',!plan_time);
 
 Feeders;
 
