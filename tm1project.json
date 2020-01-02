@@ -1,17 +1,16 @@
 {
    "Version": "1.0",
-   "Objects": {
-      "Files": { 
-         "Link":"files/}applications/"
-       }
-   }
    "Deployments":
    {
      "dev":
      {
       "Objects": {
-         "Processes('test_process')"
-         }
-     }
+         "Processes('test_process')",
+         },
+         "PrePull": [],
+         "PostPull": [],
+         "PrePush": [],
+         "PostPush": []
+      }
    }
 }
