@@ -9,7 +9,8 @@
       },
       "Ignore":
       [
-         "Cubes/Views/Dimensions"
+         "Cubes/Views/Dimensions",
+         "Processes"
       ]
       }
       

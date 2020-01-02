@@ -22,6 +22,10 @@
 		{
 			"Name":"FY 2005 Budget-upside",
 			"Type":"Numeric"
+		},
+		{
+			"Name":"GIT Promotion test version",
+			"Type":"Numeric"
 		}
 	],
 	"Subsets@Code.links":

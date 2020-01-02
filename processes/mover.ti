@@ -7,6 +7,7 @@ CUBESETLOGCHANGES('plan_BudgetPlan', 0);
 #region Metadata
 #****Begin: Generated Statements***
 #****End: Generated Statements****
+# Hello World
 #endregion
 #region Data
 #****Begin: Generated Statements***
