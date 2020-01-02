@@ -4,9 +4,9 @@
    {
      "dev":
      {
-      "Objects": {
-         "Processes('test_process')",
-         },
+      "Objects": [
+         "Processes('test_process')"
+      ],
          "PrePull": [],
          "PostPull": [],
          "PrePush": [],
