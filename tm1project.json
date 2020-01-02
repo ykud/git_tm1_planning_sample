@@ -6,9 +6,9 @@
      {
       "Objects": {
          "Processes":
-            [
-               "Process('test_process')"
-            ]
+            {
+               "Process":"Process('test_process')"
+            }
          }
       }
    }
