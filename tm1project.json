@@ -2,14 +2,16 @@
    "Version": "1.0",
    "Deployment":
    {
-     "dev":
+     "deploy":
      {
       "Objects":{
                "Processes('test_process')":{}
       },
       "Ignore":
       [
-         "Cubes/Views/Dimensions",
+         "Cubes",
+         "Views",
+         "Dimensions",
          "Processes"
       ]
       }
