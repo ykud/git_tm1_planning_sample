@@ -6,7 +6,12 @@
      {
       "Objects":{
                "Processes('test_process')":{}
+      },
+      "Ignore":
+      [
+         "Cubes/Views/Dimensions"
+      ]
       }
-      }
+      
    }
 }
