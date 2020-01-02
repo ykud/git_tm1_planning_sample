@@ -5,10 +5,7 @@
      "dev":
      {
       "Objects": {
-         "Processes"
-            {
-               "Process": "Processes('test_process')"
-            }
+         "Process": "Processes('test_process')"
          }
       }
    }
