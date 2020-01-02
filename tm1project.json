@@ -5,4 +5,13 @@
          "Link":"files/}applications/"
        }
    }
+   "Deployments":
+   {
+     "dev":
+     {
+      "Objects": {
+         "Processes('test_process')"
+         }
+     }
+   }
 }
