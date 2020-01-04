@@ -1,5 +1,8 @@
 {
    "Version": "1.0",
+   "Objects":{
+      "Processes('test_process')":{}
+   }
    "Deployment":
    {
      "deploy":
