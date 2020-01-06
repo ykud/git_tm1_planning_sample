@@ -16,9 +16,7 @@
       "Link": "/all_processes.json"
         },
       "Files":
-      {
-      "Link": "/all_files/"
-      }
+      ["/}Applications/*"]
    },
    "Deployment":
    {
@@ -29,8 +27,7 @@
       },
       "Ignore":
       [
-         "Cubes",
-         "Views",
+         "Cubes/Views",
          "Dimensions",
          "Processes"
       ]
