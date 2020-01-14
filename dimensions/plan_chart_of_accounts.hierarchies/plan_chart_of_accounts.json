@@ -380,5 +380,17 @@
 			"Weight":-1
 		}
 	],
-	"Subsets@Code.links":[]
+	"Subsets@Code.links":
+	[
+		"plan_chart_of_accounts.subsets/Consolidations.json",
+		"plan_chart_of_accounts.subsets/Default.json",
+		"plan_chart_of_accounts.subsets/Net_Operating_Income.json",
+		"plan_chart_of_accounts.subsets/n level accounts.json",
+		"plan_chart_of_accounts.subsets/plan_budget_accts_reverse.json",
+		"plan_chart_of_accounts.subsets/plan_line_item_accounts.json",
+		"plan_chart_of_accounts.subsets/plan_top_level_accts.json",
+		"plan_chart_of_accounts.subsets/Reverse Detailed Chart Of Accounts.json",
+		"plan_chart_of_accounts.subsets/Summary Reverse ChartOfAccounts.json",
+		"plan_chart_of_accounts.subsets/test expand down.json"
+	]
 }

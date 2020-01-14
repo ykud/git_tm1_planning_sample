@@ -10,5 +10,8 @@
 			"@id":"Dimensions('plan_measure_setting')"
 		}
 	],
-	"Views@Code.links":[]
+	"Views@Code.links":
+	[
+		"plan_Control.views/System Parameters.json"
+	]
 }

@@ -56,5 +56,10 @@
 			"Weight":1
 		}
 	],
-	"Subsets@Code.links":[]
+	"Subsets@Code.links":
+	[
+		"plan_lines.subsets/Default.json",
+		"plan_lines.subsets/lines.json",
+		"plan_lines.subsets/TotalLines.json"
+	]
 }

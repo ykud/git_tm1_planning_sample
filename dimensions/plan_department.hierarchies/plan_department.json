@@ -101,5 +101,11 @@
 			"Weight":1
 		}
 	],
-	"Subsets@Code.links":[]
+	"Subsets@Code.links":
+	[
+		"plan_department.subsets/All Departments.json",
+		"plan_department.subsets/Default.json",
+		"plan_department.subsets/Dy Nlevel Dept.json",
+		"plan_department.subsets/n level departments.json"
+	]
 }

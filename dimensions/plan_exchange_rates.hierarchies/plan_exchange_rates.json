@@ -28,5 +28,13 @@
 			"Type":"Numeric"
 		}
 	],
-	"Subsets@Code.links":[]
+	"Subsets@Code.links":
+	[
+		"plan_exchange_rates.subsets/actual.json",
+		"plan_exchange_rates.subsets/All Exchange Rates.json",
+		"plan_exchange_rates.subsets/All rates.json",
+		"plan_exchange_rates.subsets/local.json",
+		"plan_exchange_rates.subsets/local exchange rate.json",
+		"plan_exchange_rates.subsets/plan exchange rates not local.json"
+	]
 }

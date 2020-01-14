@@ -28,5 +28,10 @@
 			"Type":"Numeric"
 		}
 	],
-	"Subsets@Code.links":[]
+	"Subsets@Code.links":
+	[
+		"plan_version.subsets/All Versions.json",
+		"plan_version.subsets/Default.json",
+		"plan_version.subsets/FY 2004 Budget.json"
+	]
 }

@@ -24,5 +24,10 @@
 			"Type":"Numeric"
 		}
 	],
-	"Subsets@Code.links":[]
+	"Subsets@Code.links":
+	[
+		"plan_currency.subsets/All Currencies.json",
+		"plan_currency.subsets/All Currency.json",
+		"plan_currency.subsets/All Currency Rows.json"
+	]
 }

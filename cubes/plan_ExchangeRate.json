@@ -14,5 +14,12 @@
 			"@id":"Dimensions('plan_time')"
 		}
 	],
-	"Views@Code.links":[]
+	"Views@Code.links":
+	[
+		"plan_ExchangeRate.views/Default.json",
+		"plan_ExchangeRate.views/plan_exchange_rate_input_by_date.json",
+		"plan_ExchangeRate.views/plan_exchange_rate_input_by_rate.json",
+		"plan_ExchangeRate.views/plan_zero_out_2003_2005_rates.json",
+		"plan_ExchangeRate.views/plan_zero_out_2005_rates.json"
+	]
 }

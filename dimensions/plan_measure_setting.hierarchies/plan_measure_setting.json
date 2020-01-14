@@ -8,5 +8,8 @@
 			"Type":"String"
 		}
 	],
-	"Subsets@Code.links":[]
+	"Subsets@Code.links":
+	[
+		"plan_measure_setting.subsets/Default.json"
+	]
 }
