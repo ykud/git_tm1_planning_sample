@@ -87,12 +87,5 @@
 			"Weight":1
 		}
 	],
-	"Subsets@Code.links":
-	[
-		"plan_source.subsets/Adjust Line Goal.json",
-		"plan_source.subsets/budget.json",
-		"plan_source.subsets/BudgetTotal.json",
-		"plan_source.subsets/Goal.json",
-		"plan_source.subsets/input.json"
-	]
+	"Subsets@Code.links":[]
 }

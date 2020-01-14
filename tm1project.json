@@ -1,37 +1,29 @@
 {
-   "Version": "1.0",
-   
-
-"Objects":
-   {  "Cubes":
-         {
-      "Link": "/all_cubes.json"
-      },
-      "Dimensions":
-      {
-      "Link": "/all_dimensions.json"
-      },
-      "Processes":
-      {
-      "Link": "/all_processes.json"
+    "Version": "1.0",
+    "Objects": {
+        "Cubes": {
+            "Link": "/all_cubes.json"
         },
-      "Files":
-      ["/}Applications/*"]
-   },
-   "Deployment":
-   {
-     "deploy":
-     {
-      "Objects":{
-               "Processes('test_process')":{}
-      },
-      "Ignore":
-      [
-         "Cubes/Views",
-         "Dimensions",
-         "Processes"
-      ]
-      }
-      
-   }
+        "Dimensions": {
+            "Link": "/all_dimensions.json"
+        },
+        "Processes": {
+            "Link": "/all_processes.json"
+        },
+        "Files": [
+            "/}Applications/*"
+        ]
+    },
+    "Deployment": {
+        "deploy": {
+            "Objects": {
+                "Processes('test_process')": {}
+            },
+            "Ignore": [
+                "Cubes/Views",
+                "Dimensions/Hierarchies/Subsets",
+                "Processes"
+            ]
+        }
+    }
 }

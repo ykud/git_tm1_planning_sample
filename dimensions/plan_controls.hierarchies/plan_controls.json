@@ -12,8 +12,5 @@
 			"Type":"Numeric"
 		}
 	],
-	"Subsets@Code.links":
-	[
-		"plan_controls.subsets/Default.json"
-	]
+	"Subsets@Code.links":[]
 }
