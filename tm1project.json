@@ -1,3 +1,11 @@
 {
-    "Version": "1.0"
+    "Version": "1.0",
+    "Ignore": [
+        "Cubes/Views",
+        "Cubes",
+        "!Cubes('plan_BudgetPlan')",
+        "!Cubes('plan_BudgetPlan')/Views('Goal Input')",
+        "Dimensions",
+        "Processes"
+    ]
 }
