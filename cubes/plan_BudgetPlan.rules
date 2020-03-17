@@ -1,5 +1,9 @@
 skipcheck;
 
+# changed 20200311: adding something
+# 	and something more
+#   and I surely can edit it directly now
+
 ['local','line input']=
   DB('plan_BudgetPlanLineItem',
     !plan_version,!plan_business_unit,!plan_department,
