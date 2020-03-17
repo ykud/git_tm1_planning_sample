@@ -3,8 +3,10 @@
 #****Begin: Generated Statements***
 #****End: Generated Statements****
 
+ 
+### 20200317 : THIS IS A GIT PROMO TEST COMMENT ###
+
 #
-#Comment -- my UAT ONLY comment
 # Loop through all dimensions skipping system dimensions
 #
 vDimCount = DIMSIZ('}dimensions');

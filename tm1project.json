@@ -1,0 +1,12 @@
+{
+	    "Version": "1.0",
+	    "Ignore": [
+	        "Cubes",
+	    	"Cubes/Views",
+	    	"Cubes('plan_BudgetPlan')",
+	        "Dimensions",
+	        "Processes",
+	        "!Cubes('plan_Report')",
+	        "!Processes('plan_set_language')"
+	    ]
+	}
