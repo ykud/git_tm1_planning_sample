@@ -1,4 +1,7 @@
 SKIPCHECK;
+
+### 20200317 : THIS IS A GIT PROMO TEST COMMENT ###
+
 [plan_exchange_rates:'local',plan_report:'actual']=
 N:DB('plan_Report',!plan_business_unit,!plan_department,!plan_chart_of_accounts,'actual','actual',!plan_time)*
 DB('plan_ExchangeRate',ATTRS('plan_business_unit',!plan_business_unit,'currency'),'actual',!plan_time);
