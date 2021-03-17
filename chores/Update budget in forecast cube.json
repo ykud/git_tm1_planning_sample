@@ -1,0 +1,30 @@
+{
+	"@type":"Chore",
+	"Name":"Update budget in forecast cube",
+	"StartTime":"2021-03-16T21:59:32Z",
+	"DSTSensitive":true,
+	"Active":false,
+	"ExecutionMode":"MultipleCommit",
+	"Frequency":"P2DT00H00M00S",
+	"Tasks":
+	[
+		{
+			"Step":0,
+			"Parameters":
+			[
+				{
+					"Name":"PVersion",
+					"Value":"Budget"
+				},
+				{
+					"Name":"Pyear",
+					"Value":"2018"
+				}
+			],
+			"Process":
+			{
+				"@id":"Processes('plan_load_budget_to_report_cube')"
+			}
+		}
+	]
+}

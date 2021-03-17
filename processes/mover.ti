@@ -3,7 +3,7 @@
 OldCubeLogChanges = CUBEGETLOGCHANGES('plan_BudgetPlan');
 CUBESETLOGCHANGES('plan_BudgetPlan', 0);
 #****End: Generated Statements****
-#endregion
+#Hello #endregion
 #region Metadata
 #****Begin: Generated Statements***
 #****End: Generated Statements****

@@ -1,7 +1,20 @@
 {
 	"@type":"Process",
 	"Name":"plan_load_budget_to_report_cube",
+	"HasSecurityAccess":false,
 	"Code@Code.link":"plan_load_budget_to_report_cube.ti",
+	"UIData":"CubeAction=1500\fDataAction=1503\fCubeName=plan_Report\fCubeLogChanges=0\f",
+	"VariablesUIData":
+	[
+		"VarType=32\fColType=825\fVarDimension=plan_report\fVarDimAction=AsIs\fVarElemType=Numeric\fVarDimElemSortType=ByInput\fVarDimElemSortSense=ASCENDING\f",
+		"VarType=32\fColType=825\fVarDimension=plan_exchange_rates\fVarDimAction=AsIs\fVarElemType=Numeric\fVarDimElemSortType=ByInput\fVarDimElemSortSense=ASCENDING\f",
+		"IgnoredInputVarName=plan_version\fVarType=32\fColType=1165\f",
+		"VarType=32\fColType=825\fVarDimension=plan_department\fVarDimAction=AsIs\fVarElemType=Numeric\fVarDimElemSortType=ByInput\fVarDimElemSortSense=ASCENDING\f",
+		"VarType=32\fColType=825\fVarDimension=plan_business_unit\fVarDimAction=AsIs\fVarElemType=Numeric\fVarDimElemSortType=ByInput\fVarDimElemSortSense=ASCENDING\f",
+		"VarType=32\fColType=825\fVarDimension=plan_chart_of_accounts\fVarDimAction=AsIs\fVarElemType=Numeric\fVarDimElemSortType=ByInput\fVarDimElemSortSense=ASCENDING\f",
+		"VarType=32\fColType=825\fVarDimension=plan_time\fVarDimAction=AsIs\fVarElemType=Numeric\fVarDimElemSortType=ByInput\fVarDimElemSortSense=ASCENDING\f",
+		"VarType=33\fColType=826\f"
+	],
 	"DataSource":
 	{
 		"Type":"TM1CubeView",
